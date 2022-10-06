@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qual o mais forte?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1 class="titulo">Duelo</h1>
+  <button type="submit" onclick="somaPontos(primeiro, segundo)">Qual é vence uma luta?</button>
+  <div class="combate">
+    <div class="card">
+      <img src="img_avatar.png" alt="Avatar" id="personagemUm" class="borda" style="width: 100%" />
+      <div class="container">
+        <h2><b id="nomeUm"></b></h2>
+        <p><label for="combate">Combate: <progress value="57" max="100" id="combate"></progress></label></p>
+        <p><label for="Durabilidade">Durabilidade: <progress value="57" max="100" id="durabilidade"></progress></label></p>
+        <p><label for="Inteligencia">Inteligencia: <progress value="57" max="100" id="inteligencia"></progress></label></p>
+        <p><label for="Poder">Poder: <progress value="57" max="100" id="poder"></progress></label></p>
+        <p><label for="Velocidade">Velocidade: <progress value="57" max="100" id="velocidade"></progress></label></p>
+        <p><label for="Força">Força: <progress value="57" max="100" id="forca"></progress></label></p>
+        <BR><b>Total: <h3 id="total"></h3></b>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img_avatar.png" alt="Avatar" id="personagemDois" class="borda"  style="width: 100%" />
+      <div class="container">
+        <h2><b id="nomeDois"></b></h2>
+        <p><label for="combate">Combate: <progress value="57" max="100" id="combate2"></progress></label></p>
+        <p><label for="Durabilidade">Durabilidade: <progress value="57" max="100" id="durabilidade2"></progress></label></p>
+        <p><label for="Inteligencia">Inteligencia: <progress value="57" max="100" id="inteligencia2"></progress></label></p>
+        <p><label for="Poder">Poder: <progress value="57" max="100" id="poder2"></progress></label></p>
+        <p><label for="Velocidade">Velocidade: <progress value="57" max="100" id="velocidade2"></progress></label></p>
+        <p><label for="Força">Força: <progress value="57" max="100" id="forca2"></progress></label></p>
+        <BR><b>Total:<h3 id="total2"></h3></b>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="dados.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&family=Permanent+Marker&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Kalam", cursive;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(bg.jpg);
+  background-size: auto;
+}
+h1,
+h2,
+h3 {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 2px 2px rgba(246, 255, 0, 0.58);
+  color: rgb(255, 0, 0);
+  text-transform: uppercase;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 8px 0 rgba(242, 32, 32, 0.4);
+  transition: 0.3s;
+  width: 30%;
+  padding: 0.8em;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(242, 255, 0, 0.4);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.combate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 0;
+}
+
+progress {
+  width: 60%;
+  background-color: yellow;
+}
+
+.borda {
+  border: 2px salmon solid;
+}
+
+.borda:hover {
+  border: 3px rgb(114, 125, 250) solid;
+  transition: 0.52s;
+}
+
+#total,
+#total2 {
+  font-size: 3em;
+  color: yellow;
+  text-shadow: 3px 2px 2px rgba(94, 13, 208, 0.98);
+}
