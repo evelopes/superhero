@@ -10,11 +10,9 @@
 </head>
 
 <body>
-  <h1 class="titulo">Duelo</h1>
-  <button type="submit" onclick="somaPontos(primeiro, segundo)">Qual é vence uma luta?</button>
   <div class="combate">
     <div class="card">
-      <img src="img_avatar.png" alt="Avatar" id="personagemUm" class="borda" style="width: 100%" />
+      <img src="img_avatar.png" alt="Avatar" id="personagemUm" class="borda" />
       <div class="container">
         <h2><b id="nomeUm"></b></h2>
         <p><label for="combate">Combate: <progress value="57" max="100" id="combate"></progress></label></p>
@@ -23,11 +21,15 @@
         <p><label for="Poder">Poder: <progress value="57" max="100" id="poder"></progress></label></p>
         <p><label for="Velocidade">Velocidade: <progress value="57" max="100" id="velocidade"></progress></label></p>
         <p><label for="Força">Força: <progress value="57" max="100" id="forca"></progress></label></p>
-        <BR><b>Total: <h3 id="total"></h3></b>
+        <BR><b id="resultado">Total: <h3 id="total"></h3></b>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <img src="img_avatar.png" alt="Avatar" id="personagemDois" class="borda"  style="width: 100%" />
+      <div>
+      <h1 class="titulo">Duelo</h1>
+      <button type="submit" onclick="somaPontos(primeiro, segundo)">Qual é vence uma luta?</button>
+      </div>
+      <div class="card">
+      <img src="img_avatar.png" alt="Avatar" id="personagemDois" class="borda" />
       <div class="container">
         <h2><b id="nomeDois"></b></h2>
         <p><label for="combate">Combate: <progress value="57" max="100" id="combate2"></progress></label></p>
@@ -36,7 +38,7 @@
         <p><label for="Poder">Poder: <progress value="57" max="100" id="poder2"></progress></label></p>
         <p><label for="Velocidade">Velocidade: <progress value="57" max="100" id="velocidade2"></progress></label></p>
         <p><label for="Força">Força: <progress value="57" max="100" id="forca2"></progress></label></p>
-        <BR><b>Total:<h3 id="total2"></h3></b>
+        <BR><b id="resultado">Total:<h3 id="total2"></h3></b>
       </div>
     </div>
   </div>
