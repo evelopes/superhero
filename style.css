@@ -86,6 +86,10 @@ img {
   display: none;
 }
 
+#duelo {
+  padding: 1em 0 2em;
+}
+
 @media screen and (max-width: 420px) {
   .combate {
     display: flex;
@@ -97,5 +101,10 @@ img {
 
   .card {
     width: 80%;
+  }
+
+  img {
+    width: 50%;
+    object-fit: contain;
   }
 }
