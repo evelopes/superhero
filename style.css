@@ -85,3 +85,17 @@ img {
 #resultado {
   display: none;
 }
+
+@media screen and (max-width: 420px) {
+  .combate {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
